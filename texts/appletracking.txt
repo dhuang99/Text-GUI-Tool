@@ -1,0 +1,15 @@
+Hi [customer],
+
+Apple is processing your order and you can track the progress at [link].
+
+Due to the COVID-19 pandemic, some packages may be delivered to a seperate place. Please locate your package delivery location by checking the link above. If they have any special requirements, the packaging will be located at the following address:
+
+Example Building (Phone: 301.405.5852)
+1234 Example Street
+Example City, MD 12345
+
+Thanks for your patience with possible shipping adjustments during the pandemic. If you have any questions, please email us at example@example.com and reference [order].
+
+Thank you,
+[name]
+Example Company

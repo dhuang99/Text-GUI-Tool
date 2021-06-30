@@ -1,0 +1,7 @@
+Hi [customer],
+
+Attached is a PDF of your invoice. If you have any questions, please email us at example@example.com.
+
+Thank you,
+[name]
+Example Company

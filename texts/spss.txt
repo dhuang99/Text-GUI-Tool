@@ -1,0 +1,17 @@
+Hi [customer],
+
+Thank you for your recent purchase from Example Company. I have attached your receipt and below are instructions for downloading SPSS. The license expires on a day.
+
+You will be required to sign in using your credentials, follow the corresponding link you need for your operating system. 
+
+Windows download and instructions: examplelink.com
+
+Mac download and instruction: examplelink.com
+
+The SPSS license allows for ONLY one activation. You cannot use this license on a second machine, and you cannot purchase additional licenses. 
+
+If you have questions or concerns, contact Example Company at example@example.com. 
+
+Best regards,
+[name]
+Example Company

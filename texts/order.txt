@@ -1,0 +1,9 @@
+Hi [customer],
+
+Your order is currently being processed. We will email your invoice and order information once we receive the order confirmation from the supplier. Please keep in mind that due to the COVID-19 pandemic, you may encounter longer than usual ship times from our vendors. Thank you in advance for your patience. 
+
+If you have any questions about your order, please email us within this thread. 
+
+Best regards,
+[name]
+Terrapin Tech
