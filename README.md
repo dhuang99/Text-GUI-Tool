@@ -22,7 +22,7 @@
 		</ul>
 	<li><a href="#road-map">Road Map</a>
 		<ul>
-			<li> <a href="#potential-features">Proposed Features</a> </li>
+			<li> <a href="#potential-features">Potential Features</a> </li>
 			<li> <a href="#known-issues">Known Issues</a> </li>
 		</ul>
 	</li>
