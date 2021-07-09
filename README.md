@@ -1,12 +1,48 @@
-Welcome to the Terrapin Tech Sales Text Expander Tool! 
+<!-- Project Title -->
+<h2 align="left">Text GUI Tool</h2>
+<p align="left">A Python GUI that copies email templates into the user's clipboard.</p>
 
-Please extract the zip file before continuing.
 
-PREREQUISITES:
+<!-- Table of Contents -->
+<summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+<ol> 
+	<li>
+		<a href="#about-the-project">About The Project</a>
+	</li>
+	<li><a href="#getting-started">Gettings Started</a>
+		<ul>
+			<li> <a href="#prerequisites">Prerequisites</a> </li>
+			<li> <a href="#installation">Installation</a> </li>
+		</ul>
+	</li>
+	<li><a href="#usage">Usage</a>
+		<ul>
+			<li> <a href="#naming-convention">Naming Convention</a> </li>
+			<li> <a href="#installation">Installation</a> </li>
+			<li> <a href="#executing-the-script">Executing The Script</a> </li>
+		</ul>
+	</li>
+	<li><a href="road-map">Road Map</a>
+		<ul>
+			<li> <a href="known-issues">Known Issues</a> </li>
+			<li> <a href="proposed-features">Proposed Features</a> </li>
+		</ul>
+	</li>
+			
+</ol>		
+	
 
-To use the tool, please first make sure that the following files are in a folder 
-named "texts" in the same directory as this script:
+## About The Project
+At my part-time during University, I was suddenly given the responsiblity of helping manage the store side of the IT department. We had an online store which managed transactions with faculty and staff through a centralized Gmail. As a store manager, I had to go through the e-commerce process with each customer. Each step of the process involved sending the customer an email, meaning that a single order would usually result me in sending 5-6 emails to the customer over the course of the transaction. Considering the hundreds of customers we had to handle, this meant that I had to send quite a few emails.
+<\br> <\br>
+The process of sending an email started with going to the Google Doc which contained all of the email templates for each step in the e-commerce process. We would then have to copy the template and replace certain sections with the transaction specific information such as the customer's name and the order number. This, of course, became incredibly tedious over a long period of time. So, I decided to spend a day learning tkinter in Python to make a quick, easy, and terrible looking GUI to streamline the process.
 
+
+## Getting Started
+To download and use this script, follow these simple steps.
+
+### Prerequisites
+In order for the script to run (for now) you need to have the following text files in a folder named "texts" in the same directory as the script.
 * appletracking.txt
 * invoice.txt
 * lightspeednotes.txt
@@ -15,43 +51,56 @@ named "texts" in the same directory as this script:
 * repairpayment.txt
 * spss.txt
 
-FIRST TIME SETUP: 
+You also need to have python3 installed along with tkinter (tkinter usually comes with python3). Go to [Python's website](https://www.python.org/downloads/) to install the latest version of Python if you don't have it and go to [tkinter's documentation](https://tkdocs.com/tutorial/install.html) to learn to how install tkinter.
 
-Please make sure that you have at least python3 installed along with tkinter (python3 usually comes with tkinter). 
 
-To install python3 in a Mac, Windows, or Linux system: https://www.python.org/downloads/
+### Installation
+To download the script, download the zip file and extract it. Then following the following instructions.
 
-To install tkinter on a Mac, Windows, or Linux system: https://tkdocs.com/tutorial/install.html
+### Executing the Script
+There are different ways to execute the script depending on your operating system.
 
 If you are on Windows:
 
-	1. Right-click sales.py and click on the Security Tag
-	2. Make sure that you see the Read & Execute option is allowed
-	3. Rename the file to "sales.pyw"
-	4. You can now now just double click on the script to run it.
-	5. For easier access, create a shortcut by clicking on "sales.pyw" and clicking "Create shortcut"
+1. Right-click sales.py and click on the Security Tag
+2. Make sure that you see the Read & Execute option is allowed
+3. Rename the file to "sales.pyw"
+4. You can now now just double click on the script to run it.
+5. For easier access, create a shortcut by clicking on "sales.pyw" and clicking "Create shortcut"
 
 If you are on Mac:
 
-	1. Use a Terminal instance and the 'ls' and 'cd' commands to find the folder you downloaded.
-	2. Type "chmod +x sales.py" and press Enter.
-	2. Drag and drop sales.py into your Terminal.
-	3. Use your arrow keys to add ./ before sales.py so that it looks like this: /./sales.py
-	4. Press enter to make sure it works.
-	5. Copy and paste the path from your Terminal into a notepad. You can paste this into a Terminal to run the program.
+1. Use a Terminal instance and the 'ls' and 'cd' commands to find the folder you downloaded.
+2. Type "chmod +x sales.py" and press Enter.
+2. Drag and drop sales.py into your Terminal.
+3. Use your arrow keys to add ./ before sales.py so that it looks like this: /./sales.py
+5. Copy and paste the path from your Terminal into a notepad. You can paste this into a Terminal to run the program.
 
 If you are on Linux:
 	
-	1. Use a Terminal instance and the 'ls' and 'cd' commands to find the folder you downloaded.
-	2. Type "chmod +x sales.py" and press Enter.
-	3. Rename sales.py to just sales
-	4. You can now now just double click on the script to run it.
+1. Use a Terminal instance and use the 'ls' and 'cd' commands to find the folder you downloaded.
+2. Type "chmod +x sales.py" and press Enter.
+3. Rename sales.py to just sales
+4. You can now now just double click on the script to run it.
 
+## Usage
 
-USAGE INSTRUCTIONS:
+The GUI has a small set of functions:
 
-	1. Enter your name (First name)
-	2. Choose one of the options depending on the type of email you would like to send.
-	3. Input the requested information.
-	4. Click on "Copy to Clipboard". This will automatically copy the preview that shows up to your clipboard.
-	5. You can clear the text and options using the clear option.
+1. Enter your name (First name)
+2. Choose between a list of options for emails to send.
+4. Click on "Copy to Clipboard". This will automatically copy the preview that shows up to your clipboard.
+5. Clear the text and previous input.
+
+## Road Map
+I made this in a day, so I did not have the chance to implment many features that I had thought of. 
+
+### Potential Features
+* Change the files so that it can be made into an executable using pyinstall
+* Create a built-in UI to edit the text files with the templates directly
+* Create a built-in UI that can add new email templates and their own corresponding page
+
+### Known Issues
+* Extremely limited functionality
+* Very ugly UI
+* Simple UI provides a bad UX as it does not provide much convenience
