@@ -31,8 +31,10 @@
 	
 
 ## About The Project
-At my part-time during University, I was suddenly given the responsiblity of helping manage the store side of the IT department. We had an online store which managed transactions with faculty and staff through a centralized Gmail. As a store manager, I had to go through the e-commerce process with each customer. Each step of the process involved sending the customer an email, meaning that a single order would usually result me in sending 5-6 emails to the customer over the course of the transaction. Considering the hundreds of customers we had to handle, this meant that I had to send quite a few emails.
-<\br> <\br>
+At my part-time during University, I was suddenly given the responsiblity of helping manage the store side of the IT department. We had an online store which managed transactions with faculty and staff through a centralized Gmail. 
+</br> </br>
+As a store manager, I had to go through the e-commerce process with each customer. Each step of the process involved sending the customer an email, meaning that a single order would usually result me in sending 5-6 emails to the customer over the course of the transaction. Considering the hundreds of customers we had to handle, this meant that I had to send quite a few emails.
+</br> </br>
 The process of sending an email started with going to the Google Doc which contained all of the email templates for each step in the e-commerce process. We would then have to copy the template and replace certain sections with the transaction specific information such as the customer's name and the order number. This, of course, became incredibly tedious over a long period of time. So, I decided to spend a day learning tkinter in Python to make a quick, easy, and terrible looking GUI to streamline the process.
 
 
