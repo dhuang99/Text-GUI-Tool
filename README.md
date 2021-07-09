@@ -15,13 +15,11 @@
 			<li> <a href="#installation">Installation</a> </li>
 		</ul>
 	</li>
-	<li><a href="#usage">Usage</a>
+	<li><a href="#usage">Usage</a></li>
 		<ul>
-			<li> <a href="#naming-convention">Naming Convention</a> </li>
-			<li> <a href="#installation">Installation</a> </li>
-			<li> <a href="#executing-the-script">Executing The Script</a> </li>
+			<li> <a href="#executing-the-script">Executing the Script</a> </li>
+			<li> <a href="#using-the-gui">Using the GUI</a> </li>
 		</ul>
-	</li>
 	<li><a href="road-map">Road Map</a>
 		<ul>
 			<li> <a href="known-issues">Known Issues</a> </li>
@@ -43,53 +41,55 @@ To download and use this script, follow these simple steps.
 
 ### Prerequisites
 In order for the script to run (for now) you need to have the following text files in a folder named "texts" in the same directory as the script.
-* appletracking.txt
-* invoice.txt
-* lightspeednotes.txt
-* order.txt
-* quote.txt
-* repairpayment.txt
-* spss.txt
+* `appletracking.txt`
+* `invoice.txt`
+* `lightspeednotes.txt`
+* `order.txt`
+* `quote.txt`
+* `repairpayment.txt`
+* `spss.txt`
 
 You also need to have python3 installed along with tkinter (tkinter usually comes with python3). Go to [Python's website](https://www.python.org/downloads/) to install the latest version of Python if you don't have it and go to [tkinter's documentation](https://tkdocs.com/tutorial/install.html) to learn to how install tkinter.
 
 
 ### Installation
-To download the script, download the zip file and extract it. Then following the following instructions.
+To download the script, download the zip file and extract it. Then follow the instructions below.
+
+## Usage
 
 ### Executing the Script
 There are different ways to execute the script depending on your operating system.
 
-If you are on Windows:
+Windows:
 
-1. Right-click sales.py and click on the Security Tag
-2. Make sure that you see the Read & Execute option is allowed
+1. Right-click `sales.py` and go to Security
+2. Check Allow for the Read & Execute option 
 3. Rename the file to "sales.pyw"
-4. You can now now just double click on the script to run it.
-5. For easier access, create a shortcut by clicking on "sales.pyw" and clicking "Create shortcut"
+4. You can now simply double click on the script to run it.
+5. For easier access, create a shortcut by right clicking `sales.pyw` and choosing "Create shortcut"
 
-If you are on Mac:
+Mac:
 
-1. Use a Terminal instance and the 'ls' and 'cd' commands to find the folder you downloaded.
-2. Type "chmod +x sales.py" and press Enter.
-2. Drag and drop sales.py into your Terminal.
-3. Use your arrow keys to add ./ before sales.py so that it looks like this: /./sales.py
-5. Copy and paste the path from your Terminal into a notepad. You can paste this into a Terminal to run the program.
+1. Use a Terminal instance and the `ls` and `cd` commands to find the folder you downloaded.
+2. Type `chmod +x sales.py` and press `Enter`.
+2. Drag and drop `sales.py` into your Terminal.
+3. Use your arrow keys to add `./` before sales.py so that it looks like this: `/./sales.py`
+5. Save the path from your Terminal into a notepad. You can paste this command into any new Terminal in the future to run the program.
 
-If you are on Linux:
+Linux:
 	
-1. Use a Terminal instance and use the 'ls' and 'cd' commands to find the folder you downloaded.
-2. Type "chmod +x sales.py" and press Enter.
-3. Rename sales.py to just sales
-4. You can now now just double click on the script to run it.
+1. Use a Terminal instance and use the `ls` and `cd` commands to find the folder you downloaded.
+2. Type `chmod +x sales.py` and press `Enter`.
+3. Rename `sales.py` to just `sales`
+4. You can now simply double click on the script to run it.
 
-## Usage
+### Using the GUI
 
 The GUI has a small set of functions:
 
 1. Enter your name (First name)
 2. Choose between a list of options for emails to send.
-4. Click on "Copy to Clipboard". This will automatically copy the preview that shows up to your clipboard.
+4. Click on `Copy to Clipboard`. This will automatically copy the preview that shows up to your clipboard.
 5. Clear the text and previous input.
 
 ## Road Map
