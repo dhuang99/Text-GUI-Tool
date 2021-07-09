@@ -20,10 +20,10 @@
 			<li> <a href="#executing-the-script">Executing the Script</a> </li>
 			<li> <a href="#using-the-gui">Using the GUI</a> </li>
 		</ul>
-	<li><a href="road-map">Road Map</a>
+	<li><a href="#road-map">Road Map</a>
 		<ul>
-			<li> <a href="known-issues">Known Issues</a> </li>
-			<li> <a href="proposed-features">Proposed Features</a> </li>
+			<li> <a href="#known-issues">Known Issues</a> </li>
+			<li> <a href="#proposed-features">Proposed Features</a> </li>
 		</ul>
 	</li>
 			
