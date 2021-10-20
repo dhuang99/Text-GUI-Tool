@@ -581,5 +581,9 @@ class LSnotes(tk.Frame):
         file.close()
 
 #Driver Code
-app = tkinterApp()
-app.mainloop()
+def main():
+ app = tkinterApp()
+ app.mainloop()
+
+if __name__ == '__main__':
+ main()
